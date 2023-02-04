@@ -1,0 +1,21 @@
+.boxcontainer{
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    height: auto;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+#box{
+    height: 200px;
+    width: 200px;
+    background-color: #000000;
+    transition: 1s;
+}
+#text{
+    font-weight: bold;
+    color: #000000;
+   
+
+}
